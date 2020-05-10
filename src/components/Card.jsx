@@ -15,4 +15,8 @@ const Card = (props) => {
   );
 };
 
-export default Card;
+const createCard = (props) => {
+  return <Card key={props.id} title={props.title} text={props.text} />;
+};
+
+export { Card, createCard };

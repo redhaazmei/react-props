@@ -14,6 +14,11 @@ const items = [
     title: "Package C",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, quod repellendus quam tempore aliquid perferendis deleniti neque enim nesciunt eius sapiente in dolorum ducimus reprehenderit assumenda earum ipsa asperiores tempora.",
   },
+  {
+    id: 4,
+    title: "Package D",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, quod repellendus quam tempore aliquid perferendis deleniti neque enim nesciunt eius sapiente in dolorum ducimus reprehenderit assumenda earum ipsa asperiores tempora.",
+  },
 ];
 
 export default items;
