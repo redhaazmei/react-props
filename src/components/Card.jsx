@@ -3,7 +3,7 @@ import React from "react";
 const Card = (props) => {
   return (
     <div className="card">
-      <img src="https://picsum.photos/400" className="card-img-top" alt="..." />
+      <img src={props.img} className="card-img-top" alt="..." />
       <div className="card-body">
         <h5 className="card-title">{props.title}</h5>
         <p className="card-text">{props.text}</p>
@@ -16,7 +16,7 @@ const Card = (props) => {
 };
 
 const createCard = (props) => {
-  return <Card key={props.id} title={props.title} text={props.text} />;
+  return <Card key={props.id} img={props.img} title={props.title} text={props.text} />;
 };
 
 export { Card, createCard };
